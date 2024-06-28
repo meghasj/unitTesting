@@ -1,0 +1,77 @@
+/* Basic card styling */
+.login-card {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .card-title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .card-title h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .card-title span {
+    font-size: 14px;
+  }
+  
+  .card-title a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .card-title a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Form styling */
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  /* Error message styling */
+  .error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: -10px;
+    margin-bottom: 15px;
+  }
+  
+  /* Button styling */
+  button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button[disabled] {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
